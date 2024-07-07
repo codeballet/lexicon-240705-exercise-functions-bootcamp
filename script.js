@@ -173,3 +173,12 @@
 /////////////////////////////////
 // Exercise 5: Split the Nota! //
 /////////////////////////////////
+function pay() {
+    let sum = parseFloat(prompt("What's the damage?"));
+    let company = parseInt(prompt("How many are you?"));
+    let tip = parseFloat(prompt("How much tip are they worth?"));
+    let pay = (sum + sum * tip) / company;
+    console.log(`Each person should pay ${pay} units of currency.`);
+}
+
+pay();
